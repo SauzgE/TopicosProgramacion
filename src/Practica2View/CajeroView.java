@@ -2,7 +2,7 @@ package Practica2View;
 public class CajeroView {
 
     public void mostrarBienvenida() {
-        System.out.println("=== Bienvendio ===");
+        System.out.println("=== Bienvenido ===");
     }
 
     public void pedirPin() {

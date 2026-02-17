@@ -6,7 +6,7 @@ public class Usuario {
     private String pin;
     private String nombre;
     private double saldo;
-
+    //Metodos
     public Usuario(String pin, String nombre, double saldo) {
         this.pin = pin;
         this.nombre = nombre;

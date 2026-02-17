@@ -24,7 +24,7 @@ public class CajeroController {
         Usuario usuario = autenticar();
 
         if (usuario == null) {
-            view.mostrarMensaje("Demasiados intentos fallidos. Adiós.");
+            view.mostrarMensaje("Demasiados intentos fallidos. Adiós ....");
             return;
         }
 
